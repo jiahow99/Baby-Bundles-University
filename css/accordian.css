@@ -1,0 +1,46 @@
+.collapsible-link {
+    width: 100%;
+    position: relative;
+    text-align: left;
+}
+
+.collapsible-link::before {
+    content: '+';
+    position: absolute;
+    top: 50%;
+    right: 0.8rem;
+    transform: translateY(-50%);
+    display: block;
+    font-family: 'FontAwesome';
+    font-size: 1.5rem;
+}
+
+.collapsible-link[aria-expanded='true']::before {
+    content: '-';
+}
+
+.mx-auto-custom {
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    margin-top: 2rem;
+    
+}
+
+.bi-star-fill::before {
+    content: "\f586";
+    color: rgb(255, 215, 14);
+}
+
+.bi-star-not-fill::before {
+    content: "\f586";
+    fill: none;
+}
+
+/*
+*
+* ==========================================
+* FOR DEMO PURPOSES
+* ==========================================
+*
+*/

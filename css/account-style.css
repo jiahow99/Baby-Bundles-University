@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+}
+
+#profile .row-info{
+    border-bottom: #858586 1px solid;
+}
+
+#profile .container{
+    margin-top: 140px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    margin-bottom: 80px;
+}
+
+#profile h1,h2,h3,h4,h6{
+    font-family:monospace;
+    font-weight: 600;
+    font-size: 30px;
+    color: #da3333;
+    width: max-content;
+}
+
+#profile h5{
+    font-family:monospace;
+    font-weight: 600;
+    font-size: 30px;
+    color: #da3333;
+    width: max-content;
+}
+
+#profile label{
+    font-family:monospace;
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: #000000;
+}
+
+#profile select{
+    border: 3px solid #000000;
+    border-radius: 10px;
+    background-color: transparent;
+    font-weight: bold;
+    padding-left: 10px ;
+    padding-right: 5px ;
+}
+
+#profile h5::after{
+    display: block;
+    content: '';
+    height: 2px;
+    width: 80%;
+    background-color: #da3333;
+}
+
+#profile h3::after{
+    display: block;
+    content: '';
+    height: 2px;
+    width: 80%;
+    background-color: #da3333;
+}
+
+#profile .input{
+    background: transparent;
+    line-height: 38px;
+    border: 2px solid #494646a2;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0 10px;
+    outline: none;
+    
+}
+
+#profile .input:focus{
+    /* border: 2.4px solid #e01f1f; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    border: 2.3px solid #e17777;
+    outline: none;
+    transition: .2s;
+}
+
+#profile .btn{
+    border-radius: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+
